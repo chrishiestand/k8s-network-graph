@@ -6,9 +6,10 @@ If you want to generate a kubernetes based .dot file on the fly check out <https
 ## Running
 
 1. clone this repository e.g. `git clone git@github.com:chrishiestand/k8s-network-graph.git` and cd into the folder.
-2. `npm run-script build`
-3. `kubectl proxy --www=dist/`
-4. browser to the proxy's host and port appending `/static/` - e.g. <http://127.0.0.1:8001/static/>
+2. `npm install`
+3. `npm run-script build`
+4. `kubectl proxy --www=dist/`
+5. browser to the proxy's host and port appending `/static/` - e.g. <http://127.0.0.1:8001/static/>
 
 ## Example
 ![Example output](https://github.com/chrishiestand/node-k8s-dot-graph/raw/master/test/screenshot.png)
