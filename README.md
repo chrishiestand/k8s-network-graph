@@ -1,6 +1,7 @@
 # k8s-network-graph
 Nearly bare-bones browser-based kubernetes network graph visualizer. View the network graph in .svg form in the browser. Optionally export a .svg or .dot file.
 
+If you want to generate a kubernetes based .dot file on the fly check out <https://www.npmjs.com/package/k8s-dot-graph> instead.
 
 ## Running
 
