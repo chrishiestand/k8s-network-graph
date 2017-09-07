@@ -15,7 +15,7 @@ If you want to generate a kubernetes based .dot file on the fly check out <https
 
 ## Future Development
 
-This could be a much nicer web experience.
+This could be a much nicer web experience. In particular live updates are an obvious improvement.
 
 I tried using [visjs](http://visjs.org/) but it has a couple of serious bugs. If there is interest, (or a PR) then it might be worth getting this working.
 
